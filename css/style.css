@@ -50,6 +50,7 @@ p {
 
 .banner {
     margin: 5rem auto;
+    width: 100%;
 }
 
 .cta {
@@ -62,6 +63,7 @@ p {
 
 .cta p {
     margin: 2rem auto;
+    line-height: 5rem;
 }
 
 .cta_button {
@@ -77,13 +79,13 @@ p {
     cursor: pointer;
 }
 
+.cta_button:hover {
+    background-color: white;
+}
+
 a, a:link, a:visited {
     text-decoration: none;
     color: #FFA45C;
-}
-
-.cta_button:hover {
-    background-color: white;
 }
 
 .a_normal, .a_normal:link, .a_normal:visited {
@@ -107,6 +109,7 @@ footer p {
 .remark {
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
 }
 
 nav {
@@ -136,4 +139,10 @@ ul {
 
 .socialmedia_item {
     width: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .cta {
+        font-size: 3rem;
+    }
 }
