@@ -57,13 +57,13 @@ p {
     background-color: #FFA45C;
     color: white;
     padding: 2.5rem;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
 .cta p {
     margin: 2rem auto;
-    line-height: 5rem;
+    line-height: 4.5rem;
 }
 
 .cta_button {
